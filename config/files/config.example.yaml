@@ -1,0 +1,17 @@
+Server:
+  Port: ":8080"
+  BasePath: "/api"
+  GracefulTimeout: 10
+  ReadTimeout: 10
+  WriteTimeout: 10
+  APITimeout: 10
+DB: 
+  RetryInterval: 5
+  MaxIdleConn: 15
+  MaxConn: 30
+  DSN: "root:root@tcp(localhost:3306)/file?parseTime=true"
+AWS:
+  Token: "XXXXX"
+  Secret: "XXXXXXYYYYY"
+S3:
+  Bucket: "XXXXXXXAA"

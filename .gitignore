@@ -1,0 +1,11 @@
+.idea/
+vendor/
+ssh_local/
+.vscode/
+
+cmd/*/*.yaml
+
+config.yaml
+.DS_Store
+
+cmd/*/__debug_bin
